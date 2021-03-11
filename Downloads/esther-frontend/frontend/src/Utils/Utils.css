@@ -1,0 +1,22 @@
+
+
+
+
+
+.ratingsContainer {
+    display: flex;
+}
+
+.ratingsContainer .fullStar {
+    background: url('../images/estrella.png') no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+}
+
+.ratingsContainer .emptyStar {
+    background: url('../images/estrella2.png') no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+}

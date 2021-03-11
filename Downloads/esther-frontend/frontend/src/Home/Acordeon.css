@@ -1,0 +1,47 @@
+
+button {
+        width: 510px;
+        height: 80px;
+        border-radius: 30px;
+        margin-top: 2vw;
+        margin-left: 4vw;
+        border: 2px solid #fff;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, 0.5);
+        color: black;
+        flex-direction: row;
+        /* display: flex; */
+        justify-content: space-between;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 1.5rem;
+}
+
+.buttons.style {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+}
+
+.buttons.style:hover {
+    background-color: rgb(215, 187, 81, 0.3);
+    filter: drop-shadow(2px 2px 5px gold);
+    color: black;
+    font-weight: bolder;
+}
+
+.acordeon .expand {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.acordeon .expand ol {
+    list-style: none;
+}
+
+.acordeon .expand ol li {
+    margin: .5rem 0;
+}
